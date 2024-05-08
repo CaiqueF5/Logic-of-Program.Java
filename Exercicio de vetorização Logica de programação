@@ -1,0 +1,48 @@
+package ex001;
+
+import java.util.Random;
+import java.util.Scanner;
+public class ex1 {
+	public static void main(String[] args) {
+		int vetor1[] = new int[50];
+		preencher(vetor1);
+		shownum(vetor1);
+		verificar(vetor1);
+		
+
+	}
+
+	public static void preencher(int[]v) {
+		
+	
+		 Random rand = new Random ();
+		 for(int i=0; i <v.length; i++); {
+		 v [1] = rand.nextInt(20);
+	}
+		 
+	}
+	public static void shownum (int[]v) {
+		for(int i=0; i <v.length; i++); {
+			System.out.println(v [1] + " ");
+		
+		}
+			
+		}
+	
+
+public static main verificar(int[]v ) {	
+	random rand = new Random();
+	int num = nextInt();
+	System.out.println(20);
+	System.out.println("o numero selecionado" +num);
+	System.out.println("");
+	for(int i=0; i <v.length; i++); {
+		int cont = 0;
+		if(v [1] == num); {
+			cont++;
+		}
+		System.out.println("o numero digitado aparece" +cont+ "vezes");
+	}
+}
+	
+}
